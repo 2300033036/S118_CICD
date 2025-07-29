@@ -16,13 +16,12 @@ import Payment from './components/Payment';
 import Orders from './components/Orders';
 
 
-
 function App() {
   const [count, setCount] = useState(0)
   
   return (
     <>
-    <Router basename="/S219_CICD">
+    <Router basename="/S118_CICD">
       <Routes>
         <Route path="/" element={<HomePage />}>
           <Route index element={<AboutUs />} />
